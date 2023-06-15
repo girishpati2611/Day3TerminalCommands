@@ -1,0 +1,168 @@
+    3  mkdir GitDemo/
+    4  cd GitDemo
+    5  touch hello.java demo.java
+    6  nano demo.java
+    7  ls
+  207  mkdir test/
+  208  cd test/
+  209  touch Test1.java Test2.csv
+  210  nano Test1.java
+  211  cat Test1.java
+  212  mkdir Test01/
+  213  find .java
+  214  find *.java
+  215  nano Test2.csv
+  216  cat Test2.csv
+  217  head -3 Test2.csv
+  218  tail -3 Test2.csv
+  219  tail -2 Test2.csv
+  220  grep mahesh Test2.csv
+  221  grep mahesh Test2.csv | awk '{print $2}'
+  222  history
+  223  pid
+  224  id
+  225  pwd
+  226  mkdir Practise/
+  227  cd Practise/
+  228  touch Practice1.csv Practice2.java Practice3.txt
+  229  nano Practice1.csv
+  230  cat Practice1.csv
+  231  grep Rushi Practice1.csv
+  232  cat Practice1.csv | grep Hemant | awk '{print $2}'
+  233  cat Practice1.csv | grep Hemant | awk '{print $0}'
+  234  cat Practice1.csv | grep Hemant | awk '{print $1}'
+  235  find *.csv
+  236  find *.java
+  237  find Practice3.txt
+  238  awk '$3>24{print $2}' | grep Practice1.csv
+  239  awk '$3>24{print $2}'
+  240  cat Practice1.csv | awk '$3>24{print $2}'
+  241  cat Practice1.csv | awk '$3 < 24 {print $2 $3}'
+  242  cat Practice1.csv | awk '$3 < 24 {print $2" " $3}'
+  243  cat Practice1.csv | awk '$3 = 24 {print $2" " $3}'
+  244  cat Practice1.csv | awk '$3 == 24 {print $2" " $3}'
+  245  date
+  246  whoami
+  247  ls
+  248  ls -l
+  249  echo Hello World | awk '{print $3}
+  250  echo Hello World | awk '{print $3}'
+  251  echo Hello World | awk '{print $2}'
+  252  echo Hello World | awk '{print $1}'
+  253  echo Hello World | awk '{print }'
+  254  find -size 1M
+  255  find -size < 1M
+  256  find -size > 1M
+  257  find -size gt 1M
+  258  mkdir DemoPractice/
+  259  ls
+  260  rm 1M
+  261  ls
+  262  cd DemoPractice/
+  263  cd ..
+  264  mv Practice1.csv DemoPractice/
+  265  ls
+  266  nano Practice3.txt
+  267  cat Practice3.txt
+  268  cp Practice3.txt DemoPractice/Practice1.csv
+  269  cd DemoPractice/
+  270  ls
+  271  cat Practice1.csv
+  272  rm Practice1.csv
+  273  ls
+  274  cd ..
+  275  ls
+  276  rmdir DemoPractice/
+  277  ls
+  278  rm Practice2.java Practice3.txt
+  279  ls
+  280  cd ..
+  281  rm -r Practise/
+  282  ls
+  283  clear
+  284  history
+  285  clear
+  286  mkdir SundayPractice/
+  287  cd SundayPractice/
+  288  touch Practice1.txt Practice2.java
+  289  git init
+  290  git remote add origin https://github.com/girishpati2611/SundayPractice.git
+  291  nano Practice1.txt
+  292  nano Practice2.java
+  293  git init
+  294  git branch
+  295  git add Practice1.txt
+  296  git commit -m "Both Files Added Successfully"
+  297  git remote -v
+  298  git push origin master
+  299  git config user.name "Harshu5533"
+  300  git config credential.username "girishpati2611"
+  301  git push origin master
+  302  git status
+  303  git add Practice2.java
+  304  git commit -m "Java file added successfully."
+  305  git status
+  306  git push origin master
+  307  git status
+  308  git branch --delete Practice1.txt
+  309  git --delete Practice1.txt
+  310  git checkout -b SubBranch
+  311  git branch
+  312  git checkout master
+  313  git branch
+  314  ls
+  315  git checkout SubBranch
+  316  ls
+  317  git branch
+  318  mkdir Demo/
+  319  ls
+  320  cd Demo/
+  321  Touch File1.txt File2.csv File3.java
+  322  ls
+  323  nano file2.csv
+  324  cat File2.csv
+  325  git add File2.csv File1.txt
+  326  git status
+  327  git restore --staged File1.txt
+  328  git status
+  329  rm File3.java
+  330  git status
+  331  git add .
+  332  git status
+  333  git commit -m "Both Files Added Successfully in SubBranch"
+  334  Git push origin SubBranch
+  335  GIt checkout master
+  336  git branch -m Subbranch SubBranch
+  337  git branch -m SubBranch Subbranch
+  338  ls
+  339  git branch
+  340  cd ..
+  341  git Checkout SubBranch
+  342  git checkout SubBranch
+  343  ls
+  344  cd Demo/
+  345  ls
+  346  git branch -m Subbranch
+  347  git branch -m Subbranch1
+  348  git branch
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd ..
+  353  ls
+  354  git branch
+  355  git checkout master
+  356  git remote add origin https://github.com/girishpati2611/SundayPractice.git
+  357  cd SundayPracice
+  358  cd SundayPractice
+  359  git branch
+  360  cd Demo/
+  361  mv .* Subbranch/
+  362  mv File1.txt File2.csv Subbranch1/
+  363  git branch -m SubBranch1
+  364  git branch -m SubBranch
+  365  Git stat
+  366  Git status
+  367  git branch
+  368  git checkout master
+  369  cd ..
